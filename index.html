@@ -1,192 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Iniya Logistics | Transport & Logistics Services</title>
+    <meta charset="UTF-8">
 
-<meta name="description" content="Iniya Logistics provides reliable transport and logistics services from Salem, Tamil Nadu.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<style>
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
+    <title>Iniya Logistics | Lorry Transport & Logistics Services in Salem</title>
 
-body {
-    background: #f5f7fa;
-    color: #17202a;
-    line-height: 1.6;
-}
+    <meta name="description"
+          content="Iniya Logistics provides lorry transport, lorry booking, goods transportation and logistics services in Salem, Tamil Nadu. Reliable transport coordination across Tamil Nadu and India.">
 
-header {
-    background: #0b1f33;
-    color: white;
-    padding: 18px 7%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+    <meta name="keywords"
+          content="lorry transport Salem, lorry booking Salem, lorry transport office Salem, transport services Salem, logistics services Salem, goods transportation Salem, truck transport Salem, transport booking Salem, Iniya Logistics">
 
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-}
+    <meta name="author" content="Iniya Logistics">
 
-.logo span {
-    color: #19c37d;
-}
+    <meta name="robots" content="index, follow">
 
-header a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
+    <meta name="theme-color" content="#111827">
 
-.hero {
-    background: linear-gradient(135deg, #0b1f33, #123d5a);
-    color: white;
-    padding: 80px 7%;
-    text-align: center;
-}
+    <style>
 
-.hero h1 {
-    font-size: 42px;
-    margin-bottom: 15px;
-}
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-.hero h1 span {
-    color: #19c37d;
-}
+        html {
+            scroll-behavior: smooth;
+        }
 
-.hero p {
-    font-size: 18px;
-    max-width: 700px;
-    margin: 0 auto 28px;
-}
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            color: #222;
+            background: #f7f8fa;
+        }
 
-.buttons {
-    display: flex;
-    justify-content: center;
-    gap: 12px;
-    flex-wrap: wrap;
-}
+        header {
+            background: #111827;
+            color: white;
+            padding: 18px 7%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
 
-.btn {
-    display: inline-block;
-    padding: 13px 24px;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: bold;
-}
+        .logo {
+            font-size: 25px;
+            font-weight: bold;
+        }
 
-.call {
-    background: #19c37d;
-    color: white;
-}
+        header a {
+            color: white;
+            text-decoration: none;
+        }
 
-.whatsapp {
-    background: #25D366;
-    color: white;
-}
+        .hero {
+            background: linear-gradient(135deg, #111827, #374151);
+            color: white;
+            text-align: center;
+            padding: 85px 20px;
+        }
 
-section {
-    padding: 55px 7%;
-}
+        .hero h1 {
+            font-size: 42px;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
 
-.title {
-    text-align: center;
-    margin-bottom: 30px;
-}
+        .hero h1 span {
+            color: #fbbf24;
+        }
 
-.title h2 {
-    font-size: 30px;
-    color: #0b1f33;
-}
+        .hero p {
+            max-width: 800px;
+            margin: auto;
+            font-size: 18px;
+            color: #e5e7eb;
+        }
 
-.cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 20px;
-}
+        .buttons {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
 
-.card {
-    background: white;
-    padding: 28px 22px;
-    border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0,0,0,.08);
-    text-align: center;
-}
+        .btn {
+            display: inline-block;
+            padding: 13px 23px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+        }
 
-.icon {
-    font-size: 38px;
-    margin-bottom: 12px;
-}
+        .call {
+            background: #fbbf24;
+            color: #111827;
+        }
 
-.card h3 {
-    margin-bottom: 8px;
-    color: #0b1f33;
-}
+        .whatsapp {
+            background: #22c55e;
+            color: white;
+        }
 
-.about {
-    background: white;
-}
+        section {
+            padding: 65px 7%;
+        }
 
-.contact {
-    background: #0b1f33;
-    color: white;
-    text-align: center;
-}
+        .title {
+            text-align: center;
+            margin-bottom: 35px;
+        }
 
-.contact h2 {
-    font-size: 30px;
-    margin-bottom: 15px;
-}
+        .title h2 {
+            font-size: 30px;
+            color: #111827;
+        }
 
-.contact p {
-    margin: 8px 0;
-}
+        .title p {
+            margin-top: 8px;
+            color: #666;
+        }
 
-footer {
-    background: #071521;
-    color: #bbb;
-    text-align: center;
-    padding: 20px;
-    font-size: 14px;
-}
+        .cards {
+            max-width: 1100px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
 
-@media(max-width:600px) {
-    .hero h1 {
-        font-size: 32px;
-    }
+        .card {
+            background: white;
+            padding: 28px 20px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.08);
+        }
 
-    section {
-        padding: 45px 5%;
-    }
-}
-</style>
+        .icon {
+            font-size: 40px;
+            margin-bottom: 12px;
+        }
+
+        .card h3 {
+            color: #111827;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            color: #666;
+            font-size: 15px;
+        }
+
+        .about {
+            max-width: 900px;
+            margin: auto;
+            text-align: center;
+            font-size: 17px;
+            color: #555;
+        }
+
+        .keyword-box {
+            max-width: 1000px;
+            margin: 35px auto 0;
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.06);
+        }
+
+        .keyword-box h3 {
+            text-align: center;
+            margin-bottom: 15px;
+            color: #111827;
+        }
+
+        .keyword-list {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .keyword {
+            background: #eef2ff;
+            padding: 8px 13px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+        .contact {
+            background: #111827;
+            color: white;
+            text-align: center;
+        }
+
+        .contact h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        .contact p {
+            margin: 8px 0;
+        }
+
+        .contact a {
+            color: white;
+        }
+
+        footer {
+            background: #0b1120;
+            color: #aaa;
+            text-align: center;
+            padding: 18px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 850px) {
+
+            .cards {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .hero h1 {
+                font-size: 34px;
+            }
+        }
+
+        @media (max-width: 550px) {
+
+            header {
+                justify-content: center;
+            }
+
+            .cards {
+                grid-template-columns: 1fr;
+            }
+
+            .hero {
+                padding: 65px 18px;
+            }
+
+            .hero h1 {
+                font-size: 30px;
+            }
+
+            section {
+                padding: 50px 18px;
+            }
+        }
+
+    </style>
+
 </head>
 
 <body>
 
 <header>
-    <div class="logo">INIYA <span>LOGISTICS</span></div>
 
-    <a href="tel:+918838187001">📞 Call Us</a>
+    <div class="logo">
+        <a href="#">Iniya Logistics</a>
+    </div>
+
+    <a href="tel:+918838187001">
+        📞 Call Us
+    </a>
+
 </header>
+
 
 <section class="hero">
 
     <h1>
-        Reliable <span>Transport & Logistics</span> Services
+        Reliable <span>Lorry Transport & Logistics</span> Services in Salem
     </h1>
 
     <p>
-        Iniya Logistics provides dependable transport and logistics
-        solutions from Salem, Tamil Nadu.
+        Iniya Logistics provides reliable lorry transport, lorry booking,
+        goods transportation and logistics coordination services from
+        Salem, Tamil Nadu.
     </p>
 
     <div class="buttons">
@@ -196,8 +297,9 @@ footer {
         </a>
 
         <a class="btn whatsapp"
-           href="https://wa.me/918838187001?text=Hello%20Iniya%20Logistics%2C%20I%20need%20a%20transport%20quotation."
-           target="_blank">
+           href="https://wa.me/918838187001?text=Hello%20Iniya%20Logistics%2C%20I%20need%20a%20lorry%20transport%20quotation."
+           target="_blank"
+           rel="noopener">
             💬 WhatsApp
         </a>
 
@@ -205,88 +307,158 @@ footer {
 
 </section>
 
+
 <section>
 
     <div class="title">
-        <h2>Our Services</h2>
+
+        <h2>Our Transport & Logistics Services</h2>
+
+        <p>
+            Reliable transportation solutions for businesses and goods.
+        </p>
+
     </div>
+
 
     <div class="cards">
 
         <div class="card">
+
             <div class="icon">🚛</div>
-            <h3>Transport Booking</h3>
+
+            <h3>Lorry Transport Services</h3>
+
             <p>
-                Reliable vehicle arrangements for your goods
-                transportation needs.
+                Reliable lorry transport arrangements for commercial
+                goods movement from Salem.
             </p>
+
         </div>
 
+
         <div class="card">
+
+            <div class="icon">📋</div>
+
+            <h3>Lorry Booking</h3>
+
+            <p>
+                Lorry and vehicle booking coordination for your
+                transportation requirements.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
             <div class="icon">📦</div>
+
             <h3>Goods Transportation</h3>
+
             <p>
-                Safe and dependable transportation solutions
-                for commercial goods.
+                Safe and dependable transportation solutions for
+                commercial goods and cargo.
             </p>
+
         </div>
 
+
         <div class="card">
+
             <div class="icon">🛣️</div>
+
             <h3>Logistics Solutions</h3>
+
             <p>
-                Efficient logistics coordination for smooth
-                movement of goods.
+                Efficient logistics coordination for smooth movement
+                of goods across Tamil Nadu and India.
             </p>
+
         </div>
 
-        <div class="card">
-            <div class="icon">📍</div>
-            <h3>All India Service</h3>
-            <p>
-                Transport coordination for destinations
-                across India.
-            </p>
+    </div>
+
+
+    <div class="keyword-box">
+
+        <h3>Transport Services in Salem</h3>
+
+        <div class="keyword-list">
+
+            <span class="keyword">Lorry Transport Salem</span>
+
+            <span class="keyword">Lorry Booking Salem</span>
+
+            <span class="keyword">Lorry Transport Office</span>
+
+            <span class="keyword">Goods Transportation</span>
+
+            <span class="keyword">Truck Transport</span>
+
+            <span class="keyword">Transport Booking</span>
+
+            <span class="keyword">Logistics Services</span>
+
+            <span class="keyword">All India Transport</span>
+
         </div>
 
     </div>
 
 </section>
 
-<section class="about">
+
+<section>
 
     <div class="title">
+
         <h2>About Iniya Logistics</h2>
+
     </div>
 
-    <p style="max-width:850px;margin:auto;text-align:center;">
+    <div class="about">
 
-        Iniya Logistics is a transport and logistics service
-        provider based in Salem, Tamil Nadu. We help businesses
-        arrange reliable transportation and logistics solutions
-        for their goods.
+        <p>
 
-    </p>
+            Iniya Logistics is a transport and logistics service provider
+            based in Salem, Tamil Nadu. We help businesses arrange reliable
+            lorry transport, lorry booking, goods transportation and
+            logistics solutions for their transportation requirements.
+
+        </p>
+
+        <br>
+
+        <p>
+
+            We coordinate suitable vehicles for goods movement across
+            Tamil Nadu and destinations across India, providing dependable
+            transport solutions for businesses.
+
+        </p>
+
+    </div>
 
 </section>
+
 
 <section class="contact">
 
-    <h2>Get in Touch</h2>
+    <h2>Get in Touch with Iniya Logistics</h2>
 
     <p>
-        📍 3/122 Palakattan Street,
-        Thirumaligiri, Salem - 636307
+        📍 3/122 Palakattan Street, Thirumaligiri,
+        Salem - 636307
     </p>
 
     <p>
         📞
-        <a href="tel:+918838187001" style="color:white;">
+        <a href="tel:+918838187001">
             088381 87001
         </a>
     </p>
-
-    <br>
 
     <div class="buttons">
 
@@ -295,14 +467,16 @@ footer {
         </a>
 
         <a class="btn whatsapp"
-           href="https://wa.me/918838187001?text=Hello%20Iniya%20Logistics%2C%20I%20need%20a%20transport%20quotation."
-           target="_blank">
+           href="https://wa.me/918838187001?text=Hello%20Iniya%20Logistics%2C%20I%20need%20a%20lorry%20transport%20quotation."
+           target="_blank"
+           rel="noopener">
             💬 Get Quotation on WhatsApp
         </a>
 
     </div>
 
 </section>
+
 
 <footer>
 

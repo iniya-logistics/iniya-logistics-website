@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://iniya-logistics.github.io/iniya-logistics-website/sitemap.xml
